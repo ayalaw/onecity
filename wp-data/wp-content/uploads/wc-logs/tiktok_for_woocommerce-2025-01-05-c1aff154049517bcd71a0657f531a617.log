@@ -1,0 +1,122 @@
+2025-01-05T19:14:56+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_677ada2feb408httplocalhost8080wp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost:8080\/wp-admin\/"}
+ ajax: no
+2025-01-05T19:14:56+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 418 Blocked by NetFree
+Content-Type: text/html
+Connection: close
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="//netfree.link/img/block-favicon.png"/>
+    </head>
+    <body>
+        <iframe id="netfree_block_iframe" name="netfree-block-iframe" src="https://netfree.link/block/#%7B%22block%22%3A%22deny%22%2C%22page_info%22%3A%7B%22url%22%3A%22https%3A%2F%2Fads.tiktok.com%2Fmarketing_api%2Fapi%2Fdeveloper%2Fapp%2Fcreate_auto_approve%2F%22%2C%22referer%22%3A%22https%3A%2F%2Fads.tiktok.com%22%7D%7D" style=" position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none; "></iframe>
+    </body>
+</html>
+
+
+2025-01-05T19:14:56+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 418 Blocked by NetFree
+Content-Type: text/html
+Connection: close
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="//netfree.link/img/block-favicon.png"/>
+    </head>
+    <body>
+        <iframe id="netfree_block_iframe" name="netfree-block-iframe" src="https://netfree.link/block/#%7B%22block%22%3A%22deny%22%2C%22page_info%22%3A%7B%22url%22%3A%22https%3A%2F%2Fads.tiktok.com%2Fmarketing_api%2Fapi%2Fdeveloper%2Fapp%2Fcreate_auto_approve%2F%22%2C%22referer%22%3A%22https%3A%2F%2Fads.tiktok.com%22%7D%7D" style=" position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none; "></iframe>
+    </body>
+</html>
+
+
+2025-01-05T19:14:56+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 418 Blocked by NetFree
+Content-Type: text/html
+Connection: close
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="//netfree.link/img/block-favicon.png"/>
+    </head>
+    <body>
+        <iframe id="netfree_block_iframe" name="netfree-block-iframe" src="https://netfree.link/block/#%7B%22block%22%3A%22deny%22%2C%22page_info%22%3A%7B%22url%22%3A%22https%3A%2F%2Fads.tiktok.com%2Fmarketing_api%2Fapi%2Fdeveloper%2Fapp%2Fcreate_auto_approve%2F%22%2C%22referer%22%3A%22https%3A%2F%2Fads.tiktok.com%22%7D%7D" style=" position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none; "></iframe>
+    </body>
+</html>
+
+
+2025-01-05T19:14:56+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 418 Blocked by NetFree
+Content-Type: text/html
+Connection: close
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="//netfree.link/img/block-favicon.png"/>
+    </head>
+    <body>
+        <iframe id="netfree_block_iframe" name="netfree-block-iframe" src="https://netfree.link/block/#%7B%22block%22%3A%22deny%22%2C%22page_info%22%3A%7B%22url%22%3A%22https%3A%2F%2Fads.tiktok.com%2Fmarketing_api%2Fapi%2Fdeveloper%2Fapp%2Fcreate_auto_approve%2F%22%2C%22referer%22%3A%22https%3A%2F%2Fads.tiktok.com%22%7D%7D" style=" position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none; "></iframe>
+    </body>
+</html>
+
+
+2025-01-05T19:34:37+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T19:34:37+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T19:36:47+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T19:36:47+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T19:41:12+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T19:41:12+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T19:41:25+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T19:41:25+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T20:25:35+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T20:25:35+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T20:25:51+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2025-01-05T20:25:51+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2025-01-05T20:33:07+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T20:33:07+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T20:50:53+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T20:50:53+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T20:51:04+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T20:51:04+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:12:22+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:12:22+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:20:18+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:20:18+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:20:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:20:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:21:06+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:21:06+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:21:48+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:21:48+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:22:47+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:22:47+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:23:23+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:23:23+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:23:53+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:23:53+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:28:39+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:28:39+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:30:29+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:30:29+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:34:55+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:34:55+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:35:32+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:35:32+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:37:02+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:37:02+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-05T21:40:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-05T21:40:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"

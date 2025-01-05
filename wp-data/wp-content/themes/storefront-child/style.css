@@ -1,0 +1,13 @@
+/*
+Theme Name: Storefront Child
+Theme URI: http://example.com/storefront-child
+Description: Storefront Child Theme
+Author: Your Name
+Author URI: http://example.com
+Template: storefront
+Version: 1.0.0
+Text Domain: storefront-child
+*/
+
+/* Import the parent theme’s styles */
+@import url("../storefront/style.css");
