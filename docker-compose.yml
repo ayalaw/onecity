@@ -11,8 +11,11 @@ services:
       WORDPRESS_DB_NAME: onecity_db
       WORDPRESS_DB_USER: user
       WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DEBUG: "0"
     volumes:
       - ./wp-data:/var/www/html
+      - ./ProductRequestAPI.php:/var/www/html/ProductRequestAPI.php
+      - ./ProductRequestMessage.php:/var/www/html/ProductRequestMessage.php
 
   db:
     image: mysql:5.7

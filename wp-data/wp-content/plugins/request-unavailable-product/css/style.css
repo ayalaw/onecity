@@ -1,0 +1,17 @@
+.span_res { padding-left: 5px}
+#floating_message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /*background-color: #333;*/
+    /*color: #fff;*/
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #68D6FD, #00ff87) !important;
+}

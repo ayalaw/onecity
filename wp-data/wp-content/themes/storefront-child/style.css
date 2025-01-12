@@ -11,3 +11,32 @@ Text Domain: storefront-child
 
 /* Import the parent theme’s styles */
 @import url("../storefront/style.css");
+
+.beta.site-title h1 {
+    background: linear-gradient(to right, #68d6fd, #00ff87);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Make the text color transparent so the background shows */
+}
+.button.product_type_simple:hover, #request_button:hover {
+    background: #065689 !important;
+}
+.button.product_type_simple, #request_button {
+    display: inline-block;
+    color: black;
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #68D6FD, #00ff87) !important;
+}
+
+header.site-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #68d6fd, #00ff87);
+}
+.main-navigation ul li a,.site-title a, ul.menu li a, .site-branding h1 a, button.menu-toggle, button.menu-toggle:hover, .handheld-navigation .dropdown-toggle { color: #FFFFFE !important;}
