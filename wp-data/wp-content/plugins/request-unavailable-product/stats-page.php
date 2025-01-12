@@ -56,13 +56,13 @@ function render_product_request_stats(): void {
 
     if(!empty($current)){
         echo '<h4>Most requested plugin this month:  
-            <span>' .  $current?->post_title . ' ('. $current?->total . ' requests)</span>
+            <span>' .  $current['post_title'] . ' ('. $current['total'] . ' requests)</span>
         </h4>';
     }
 
     if(!empty($last)) {
         echo '<h4>Most requested plugin last month:  
-            <span>' .  $last?->post_title . ' ('. $last?->total . ' requests)</span>
+            <span>' .  $last['post_title'] . ' ('. $last['total'] . ' requests)</span>
         </h4>';
     }
 

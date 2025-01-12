@@ -42,23 +42,9 @@ function handle_product_request(int $productId): array {
         $status = ProductRequestMessage::UNAVAILABLE;
     }
 
-    try {
-        global $wpdb;
-        $res = $wpdb->insert(
-            $wpdb->prefix.'product_request',
-            array(
-                'product_id' => $productId,
-                'response' => $status->name,
-                'created_at' => date('Y-m-d H:i:s'),
-            ),
-        );
-    } catch (Exception $e) {
-        return ['status' => $status->name, 'msg' => $e->getMessage()];
-    }
-
-    if($res) {
+    if($status) {
         return ['status' => $status->name, 'msg' => $status->value];
     }
 
-    return ['status' => ProductRequestMessage::ERROR->name, 'msg' => ProductRequestMessage::ERROR->value];
+    return ['status' => ProductRequestMessage::MISSING_PRODUCT_ID->name, 'msg' => ProductRequestMessage::MISSING_PRODUCT_ID->value];
 }

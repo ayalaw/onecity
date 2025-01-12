@@ -92,6 +92,20 @@ function send_direct_product_request(int $product_id): array {
     }
 
     $data = json_decode($response['body'], true);
+    try {
+        global $wpdb;
+        $wpdb->insert(
+            $wpdb->prefix.'product_request',
+            array(
+                'product_id' => $product_id,
+                'response' => $data['status'],
+                'created_at' => date('Y-m-d H:i:s'),
+            ),
+        );
+    } catch (exception $e) {
+        error_log($e->getMessage());
+    }
+
     return ['status' => $data['status'], 'message' => $data['msg']];
 }
 
