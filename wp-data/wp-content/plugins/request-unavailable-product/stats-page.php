@@ -96,7 +96,7 @@ function render_product_request_stats(): void {
     echo '<form method="get" action="" id="form_search">';
     echo '<input type="hidden" name="page" value="product-request-stats">';
     echo '<label for="free_search">Search plugin:</label>';
-    echo '<input type="text" name="search" id="free_search" value="' . esc_attr($free_search) . '">';
+    echo '<input type="text" name="free_search" id="free_search" value="' . esc_attr($free_search) . '">';
     echo '<button type="submit" class="button button-primary">Search</button>';
     echo '</form>';
     echo '<table class="wp-list-table widefat fixed striped">';
