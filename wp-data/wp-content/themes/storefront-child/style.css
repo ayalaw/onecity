@@ -18,6 +18,14 @@ Text Domain: storefront-child
     background-clip: text;
     color: transparent; /* Make the text color transparent so the background shows */
 }
+li.product {
+    border: 1px solid #B8B8B6FF;
+    border-radius: 10px;
+    padding: 7px;
+    height: 310px;
+}
+li.product:hover { border: 1px solid black; }
+li.product img{max-width: 128px}
 .button.product_type_simple:hover, #request_button:hover {
     background: #065689 !important;
 }
