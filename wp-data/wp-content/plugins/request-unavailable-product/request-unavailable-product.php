@@ -79,7 +79,7 @@ add_action('wp_footer', 'add_floating_message');
 
 // Function to send a direct product request via API
 function send_direct_product_request(int $product_id): array {
-    $url = 'http://host.docker.internal:8080/ProductRequestAPI.php';
+    $url = home_url('/ProductRequestAPI.php');
 
     $response = wp_remote_post($url, array(
         'method'    => 'POST',
@@ -124,13 +124,9 @@ function send_request_on_button_click(): void {
         wp_send_json_error(ProductRequestMessage::MISSING_PRODUCT_ID->value);
     }
 
-    // Sanitize the product ID
     $product_id = sanitize_text_field($_POST['product_id']);
-
-    // Call the function to process the product request
     $response = send_direct_product_request((int)$product_id);
 
-    // Handle the response and send it back
     if (!empty($response) && isset($response['status']) && $response['status'] > 0) {
         wp_send_json_success($response);
     } else {
@@ -138,14 +134,9 @@ function send_request_on_button_click(): void {
         wp_send_json_error('The Request failed: ' . $error_message);
     }
 
-    // End execution to ensure no extra output
     wp_die();
 }
 
 // Hook the AJAX actions
 add_action('wp_ajax_request_product', 'send_request_on_button_click');
 add_action('wp_ajax_nopriv_request_product', 'send_request_on_button_click');
-
-
-
-

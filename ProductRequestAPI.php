@@ -1,6 +1,8 @@
 <?php
-
-require_once __DIR__ . '/ProductRequestMessage.php';
+if (!defined('ABSPATH')) {
+    define('ABSPATH', __DIR__);
+}
+require_once ABSPATH . '/ProductRequestMessage.php';
 
 header('Content-Type: application/json');
 
@@ -30,8 +32,8 @@ exit;
  * Check the availability of a product.
  */
 function handle_product_request(int $productId): array {
-    $availableProducts = [12, 14, 15];
-    $comingSoon = [13];
+    $availableProducts = [12, 14, 16, 85];
+    $comingSoon = [13, 84];
 
     if (in_array($productId, $availableProducts)) {
         $status = ProductRequestMessage::AVAILABLE;
