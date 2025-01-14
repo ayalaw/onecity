@@ -165,7 +165,7 @@ class ProductRequestStats
                 ON pr.product_id = p.id 
                        AND post_type = 'product' 
                 WHERE p.post_status = 'publish'
-                GROUP BY product_id");
+                GROUP BY product_id, is_valid, month");
         } catch (Exception $e) {
             error_log('Database error: ' . $e->getMessage());
             return [];
