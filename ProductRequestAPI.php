@@ -1,6 +1,5 @@
 <?php
 
-require_once '/var/www/html/wp-load.php';
 require_once __DIR__ . '/ProductRequestMessage.php';
 
 header('Content-Type: application/json');
